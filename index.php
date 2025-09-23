@@ -21,8 +21,12 @@
     // echo "x++: " .($x++) . "</br>";
     // echo "++y: " .(++$y) . "</br>";
     
-    $x = 10;
-    $y = 11;
+    // $x = 10;
+    // $y = 11;
+
+    //Truyền đường link: http://ins3064.test/index.php?x=5&y=3
+    $x = $_GET["x"];
+    $y = $_GET["y"];
     echo "x == y: " . ($x == $y) . "</br>";
     echo "x != y: " . ($x != $y) . "</br>";
     echo "x < y: " . ($x < $y) . "</br>";
